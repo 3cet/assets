@@ -1,5 +1,4 @@
 local drawing = {}	
-if false then Drawing = {};function Drawing.new(...)end;end
 
 	drawing.settings = {
 		Line = {
@@ -27,14 +26,14 @@ if false then Drawing = {};function Drawing.new(...)end;end
 	}
 
 	function drawing.new(type)
-		local drawing = Drawing.new(type)
+		local ddd = Drawing.new(type)
 		
 		if drawing.settings[type] then
 			for i, v in drawing.settings[type] do
-				drawing[i] = v
+				ddd[i] = v
 			end
 		end
 		
-		return drawing
+		return ddd
 	end
 return drawing
