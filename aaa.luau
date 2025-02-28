@@ -1,4 +1,5 @@
-	if false then Drawing = {};function Drawing.new(...)end;end
+local drawing = {}	
+if false then Drawing = {};function Drawing.new(...)end;end
 
 	drawing.settings = {
 		Line = {
@@ -37,3 +38,4 @@
 		
 		return drawing
 	end
+return drawing
