@@ -23,7 +23,6 @@ if false then Drawing = {};function Drawing.new(...)end;end
 			Color = Color3.fromRGB(255, 255, 255);
 			Filled = true;
 			Visible = false;
-			Thickness = 1;
 		}
 	}
 
